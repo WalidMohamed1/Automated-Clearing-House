@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ACH.Models.Batch>
+@{
+    ViewBag.Title = "Reveiwer";
+}
+
+
+<div class="row">
+    <div>
+        <h3><b>Review Step</b></h3>
+        <div class="card card-body">
+            <table class="table table-sm">
+                <tr style="background-color: rgba(0, 0, 255, 0.1)">
+                    <th></th>
+                    <th>Batch ID</th>
+                    <th>@Html.DisplayNameFor(model => model.CreationDate)</th>
+                    <th>@Html.DisplayNameFor(model => model.SenderBankName)</th>
+                    <th>Total Transactions</th>
+                    <th>Status</th>
+                    <th>Update</th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><a class="btn btn-sm btn-info" @Html.ActionLink("View", "GetBatch", "Reviewer", new { id = item.Id }, "")</td>
+                        <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                        <td>@Html.DisplayFor(modelItem => item.CreationDate)</td>
+                        <td>@Html.DisplayFor(modelItem => item.SenderBankName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.transactions.Count)</td>
+                        <td>@Html.DisplayFor(modelItem => item.BatchStatus)</td>
+                        <td><a class="btn btn-sm btn-success" @Html.ActionLink("Update Status", "UpdateBatch", "Reviewer", new { id = item.Id }, "")</td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+
+
+</div>
+
+

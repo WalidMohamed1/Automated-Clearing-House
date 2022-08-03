@@ -1,0 +1,88 @@
+﻿@model WebAPI.Models.Transaction
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Transaction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Batch.SenderBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Batch.SenderBankName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RcvBankId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RcvBankId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RcvBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RcvBankName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoprorateAccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoprorateAccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeAccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeAccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

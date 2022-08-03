@@ -1,0 +1,98 @@
+﻿@model ACH.Models.Batch
+
+@{
+    ViewBag.Title = "Delete Batch";
+}
+
+<h2>@ViewBag.Title</h2>
+<hr />
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Batch</h4>
+    <dl class="dl-horizontal">
+       
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ApprovedTransactionCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ApprovedTransactionCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RejectedTransactionCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RejectedTransactionCount)
+        </dd>
+
+        <dt>
+            TotalTransactionCount
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.transactions.Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalApprovedAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalApprovedAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalRejectedAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalRejectedAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalAmount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderBankId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderBankId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SenderBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SenderBankName)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-sm btn-danger" />
+            @Html.ActionLink("Back to List", "Index", "Maker")
+        </div>
+    }
+</div>

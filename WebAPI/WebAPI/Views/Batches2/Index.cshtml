@@ -1,0 +1,93 @@
+﻿@model IEnumerable<WebAPI.Models.Batch>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MakerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConfirmerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApprovedTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RejectedTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalApprovedAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalRejectedAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SenderBankId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SenderBankName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MakerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ConfirmerId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreationDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ApprovedTransactionCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RejectedTransactionCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalTransactionCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalApprovedAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalRejectedAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalAmount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SenderBankId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SenderBankName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

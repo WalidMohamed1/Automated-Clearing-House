@@ -1,0 +1,158 @@
+﻿@model WebAPI.Models.Batch
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+    <h4>Batch</h4>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MakerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ConfirmerId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApprovedTransactionCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RejectedTransactionCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalTransactionCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalApprovedAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalRejectedAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderBankId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SenderBankName)
+            </th>
+            <th></th>
+        </tr>
+
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => model.MakerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.ConfirmerId)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.CreationDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.ApprovedTransactionCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.RejectedTransactionCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.TotalTransactionCount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.TotalApprovedAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.TotalRejectedAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.TotalAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SenderBankId)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => model.SenderBankName)
+                </td>
+               
+            </tr>
+        
+
+    </table>
+
+    <h4>Trxs</h4>
+    <<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MakerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ConfirmerId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ApprovedTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RejectedTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalTransactionCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalApprovedAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalRejectedAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SenderBankId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SenderBankName)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.transactions)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BatchId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreationDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RcvBankId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RcvBankName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoprorateAccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeAccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Currency)
+            </td>
+            
+        </tr>
+    }
+
+</table>

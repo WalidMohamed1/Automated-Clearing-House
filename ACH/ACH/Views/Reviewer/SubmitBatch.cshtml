@@ -1,0 +1,109 @@
+﻿@model ACH.Models.Batch
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SubmitBatch</title>
+</head>
+<body>
+    <h3>Are you sure you want to update this status ?</h3>
+    <div>
+        <h4>Batch</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.MakerId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.MakerId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ConfirmerId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ConfirmerId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CreationDate)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CreationDate)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ApprovedTransactionCount)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ApprovedTransactionCount)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.RejectedTransactionCount)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.RejectedTransactionCount)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TotalApprovedAmount)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TotalApprovedAmount)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TotalRejectedAmount)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TotalRejectedAmount)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.TotalAmount)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SenderBankId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SenderBankId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SenderBankName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SenderBankName)
+            </dd>
+    
+        </dl>
+    
+        @using (Html.BeginForm()) {
+            @Html.AntiForgeryToken()
+    
+            <div class="form-actions no-color">
+                <input type="submit" value="UpdateStatus" class="btn btn-default" /> 
+            </div>
+        }
+    </div>
+</body>
+</html>

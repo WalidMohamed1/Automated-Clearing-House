@@ -1,0 +1,170 @@
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\ACH.dll.config
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\ACH.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\ACH.pdb
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csc.exe
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csc.exe.config
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csc.rsp
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csi.exe
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csi.exe.config
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\csi.rsp
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.AppContext.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Collections.Immutable.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Console.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Globalization.Calendars.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.IO.Compression.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.IO.FileSystem.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Net.Http.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Net.Sockets.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.ValueTuple.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Xml.XPath.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\vbc.exe
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\vbc.exe.config
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\vbc.rsp
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\VBCSCompiler.exe
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\roslyn\VBCSCompiler.exe.config
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Antlr3.Runtime.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\EntityFramework.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\EntityFramework.SqlServer.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Microsoft.Web.Infrastructure.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Newtonsoft.Json.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Net.Http.Formatting.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Helpers.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Mvc.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Optimization.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Razor.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.Deployment.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.Razor.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\WebGrease.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\EntityFramework.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\EntityFramework.SqlServer.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Net.Http.Formatting.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Helpers.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Mvc.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Optimization.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.Razor.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.Deployment.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\System.Web.WebPages.Razor.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Newtonsoft.Json.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Antlr3.Runtime.pdb
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\obj\Debug\ACH.csproj.AssemblyReference.cache
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\obj\Debug\ACH.csproj.CoreCompileInputs.cache
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\obj\Debug\ACH.csproj.CopyComplete
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\obj\Debug\ACH.dll
+D:\Computer Science\Work\Technologies training\C# Projects\ACH\ACH\obj\Debug\ACH.pdb
+D:\Project\ACH\ACH\bin\ACH.dll.config
+D:\Project\ACH\ACH\bin\ACH.dll
+D:\Project\ACH\ACH\bin\ACH.pdb
+D:\Project\ACH\ACH\bin\roslyn\csc.exe
+D:\Project\ACH\ACH\bin\roslyn\csc.exe.config
+D:\Project\ACH\ACH\bin\roslyn\csc.rsp
+D:\Project\ACH\ACH\bin\roslyn\csi.exe
+D:\Project\ACH\ACH\bin\roslyn\csi.exe.config
+D:\Project\ACH\ACH\bin\roslyn\csi.rsp
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Project\ACH\ACH\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Project\ACH\ACH\bin\roslyn\System.AppContext.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Collections.Immutable.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Console.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Globalization.Calendars.dll
+D:\Project\ACH\ACH\bin\roslyn\System.IO.Compression.dll
+D:\Project\ACH\ACH\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Project\ACH\ACH\bin\roslyn\System.IO.FileSystem.dll
+D:\Project\ACH\ACH\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Net.Http.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Net.Sockets.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Reflection.Metadata.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Project\ACH\ACH\bin\roslyn\System.ValueTuple.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Xml.XPath.dll
+D:\Project\ACH\ACH\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Project\ACH\ACH\bin\roslyn\vbc.exe
+D:\Project\ACH\ACH\bin\roslyn\vbc.exe.config
+D:\Project\ACH\ACH\bin\roslyn\vbc.rsp
+D:\Project\ACH\ACH\bin\roslyn\VBCSCompiler.exe
+D:\Project\ACH\ACH\bin\roslyn\VBCSCompiler.exe.config
+D:\Project\ACH\ACH\bin\Antlr3.Runtime.dll
+D:\Project\ACH\ACH\bin\EntityFramework.dll
+D:\Project\ACH\ACH\bin\EntityFramework.SqlServer.dll
+D:\Project\ACH\ACH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Project\ACH\ACH\bin\Microsoft.Web.Infrastructure.dll
+D:\Project\ACH\ACH\bin\Newtonsoft.Json.dll
+D:\Project\ACH\ACH\bin\System.Net.Http.Formatting.dll
+D:\Project\ACH\ACH\bin\System.Web.Helpers.dll
+D:\Project\ACH\ACH\bin\System.Web.Mvc.dll
+D:\Project\ACH\ACH\bin\System.Web.Optimization.dll
+D:\Project\ACH\ACH\bin\System.Web.Razor.dll
+D:\Project\ACH\ACH\bin\System.Web.WebPages.Deployment.dll
+D:\Project\ACH\ACH\bin\System.Web.WebPages.dll
+D:\Project\ACH\ACH\bin\System.Web.WebPages.Razor.dll
+D:\Project\ACH\ACH\bin\WebGrease.dll
+D:\Project\ACH\ACH\bin\EntityFramework.xml
+D:\Project\ACH\ACH\bin\EntityFramework.SqlServer.xml
+D:\Project\ACH\ACH\bin\System.Net.Http.Formatting.xml
+D:\Project\ACH\ACH\bin\System.Web.Helpers.xml
+D:\Project\ACH\ACH\bin\System.Web.Mvc.xml
+D:\Project\ACH\ACH\bin\System.Web.Optimization.xml
+D:\Project\ACH\ACH\bin\System.Web.Razor.xml
+D:\Project\ACH\ACH\bin\System.Web.WebPages.xml
+D:\Project\ACH\ACH\bin\System.Web.WebPages.Deployment.xml
+D:\Project\ACH\ACH\bin\System.Web.WebPages.Razor.xml
+D:\Project\ACH\ACH\bin\Newtonsoft.Json.xml
+D:\Project\ACH\ACH\bin\Antlr3.Runtime.pdb
+D:\Project\ACH\ACH\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Project\ACH\ACH\obj\Debug\ACH.csproj.AssemblyReference.cache
+D:\Project\ACH\ACH\obj\Debug\ACH.csproj.CoreCompileInputs.cache
+D:\Project\ACH\ACH\obj\Debug\ACH.csproj.CopyComplete
+D:\Project\ACH\ACH\obj\Debug\ACH.dll
+D:\Project\ACH\ACH\obj\Debug\ACH.pdb

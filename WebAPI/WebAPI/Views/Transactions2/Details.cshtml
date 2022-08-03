@@ -1,0 +1,82 @@
+﻿@model WebAPI.Models.Transaction
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Transaction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BatchId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BatchId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreationDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreationDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RcvBankId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RcvBankId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RcvBankName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RcvBankName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoprorateAccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoprorateAccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmployeeAccountNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmployeeAccountNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
